@@ -1,6 +1,6 @@
 /* GLOBAL */
-:root{
-  --orange:rgba(233, 138, 21, 0.507);
+:root {
+  --orange: rgba(233, 138, 21, 0.507);
 }
 body {
   margin: 0;
@@ -92,9 +92,39 @@ nav {
 }
 
 /* SERVICES PAGE */
-.PageContent{
+.PageContent {
   height: 750px;
   widows: 80%;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid var(--orange);
+}
+
+/* CONTACT PAGE */
+
+.contact {
+  text-align: center;
+}
+.contactForm {
+  float: left;
+  margin-left: 20%;
+  background-color: var(--orange);
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+.contactForm input,
+textarea {
+  width: 90%;
+  margin: 5px;
+  padding: 5px;
+}
+#contactButton{
+  background-color: crimson;
+}
+.contactInfo {
+  float: right;
+  margin-right: 20%;
+  width: 300px;
+  height: 400px;
+  background-color: var(--orange);
 }
