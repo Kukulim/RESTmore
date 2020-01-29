@@ -1,4 +1,7 @@
 /* GLOBAL */
+:root{
+  --orange:rgba(233, 138, 21, 0.507);
+}
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +12,7 @@ a {
   text-decoration: none;
 }
 #active {
-  background: rgba(233, 138, 21, 0.507);
+  background: var(--orange);
   color: black;
 }
 .conteiner {
@@ -89,8 +92,9 @@ nav {
 }
 
 /* SERVICES PAGE */
-.servicesPageContent{
+.PageContent{
   height: 750px;
   widows: 80%;
   background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--orange);
 }
