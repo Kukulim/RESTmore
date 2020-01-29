@@ -15,11 +15,8 @@ a {
 /* MAIN */
 
 main {
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0, 0.4),
-    rgba(0,0,0, 0.4)
-  ),url(./images/tropical.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/tropical.jpg);
   background-size: cover;
   height: 100vh;
   background-position: center;
@@ -34,6 +31,7 @@ header {
 #logo {
   margin-top: 20px;
   float: left;
+  height: 45px;
 }
 
 /* NAVIGATION MENU */
@@ -70,7 +68,6 @@ nav {
   color: white;
   font-weight: 900;
   font-size: 50px;
-  /* background-color: teal; */
   text-align: center;
 }
 #slog {
@@ -83,7 +80,8 @@ nav {
   text-transform: uppercase;
   border: 1px solid white;
 }
-.button1 a{
-    color: white;
-    padding: 15px 55px;
+.button1 a {
+  color: white;
+  padding: 15px 55px;
 }
+
