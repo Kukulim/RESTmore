@@ -103,12 +103,12 @@ nav {
 
 .contact {
   text-align: center;
+  color: white;
 }
 .contactForm {
   float: left;
   margin-left: 20%;
-  background-color: var(--orange);
-  width: 300px;
+  width: 25%;
   text-align: center;
   padding: 10px;
 }
@@ -118,13 +118,45 @@ textarea {
   margin: 5px;
   padding: 5px;
 }
-#contactButton{
-  background-color: crimson;
+#contactButton {
+  padding: 10px 70px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  transition: all 0.5s;
+}
+#contactButton:hover{
+  background-color: var(--orange);
+  color: white;
+  cursor: pointer;
 }
 .contactInfo {
   float: right;
   margin-right: 20%;
-  width: 300px;
+  width: 25%;
   height: 400px;
-  background-color: var(--orange);
+}
+.icons {
+  border-top: 1px solid white;
+  padding-top: 15px;
+}
+i {
+  font-size: 40px;
+}
+#contactH1 {
+  font-size: 55px;
+}
+#contactH3 {
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+.fab {
+  transition: all 0.5s;
+}
+.fab:hover {
+  color: var(--orange);
+  cursor: pointer;
 }
