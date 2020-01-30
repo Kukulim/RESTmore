@@ -90,6 +90,16 @@ nav {
   color: white;
   padding: 15px 55px;
 }
+.video {
+  position: absolute;
+  top: 1px;
+  left: calc(50% - 280px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.33s ease-in-out;
+  z-index: 999999
+}
 
 /* SERVICES PAGE */
 .PageContent {

@@ -15,29 +15,33 @@
   <body>
     <main>
       <div class="conteiner">
-      <header>
-        <img src="./images/logo.png" alt="tropical island" id="logo" />
-        <nav>
-          <ul class="menu">
-            <li><a id="active" href="index.html">Home</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="Galery.html">Galery</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+        <header>
+          <img src="./images/logo.png" alt="tropical island" id="logo" />
+          <nav>
+            <ul class="menu">
+              <li><a id="active" href="index.html">Home</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Galery.html">Galery</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
       </div>
       <section>
         <div class="title">
           <h1 id="slog">What Makes A Holiday Unforgettable?</h1>
           <button class="button1">
-            <a
-              href="#"
-              onclick='javascript:window.open("https://www.youtube.com/embed/cSqZIdDZQqc?controls=0", "_blank", "scrollbars=1,resizable=1,height=500,width=700");'
-              >watch video</a
-            >
+            <a href="#" onclick="youtube()">watch video</a>
           </button>
+          <div class="video"></div>
+          <script>
+            function youtube() {
+              document.querySelector(
+                ".video"
+              ).innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/cSqZIdDZQqc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            }
+          </script>
           <button class="button1">
             <a href="Services.html">explore more</a>
           </button>
